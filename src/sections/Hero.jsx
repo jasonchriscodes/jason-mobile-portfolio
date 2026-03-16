@@ -8,7 +8,7 @@ import {calculateSizes} from "../constan/index.js";
 import Charmander from "../components/Charmander.jsx";
 import ReactLogo from "../components/ReactLogo.jsx";
 import Cube from "../components/Cube.jsx";
-import Rings from "../components/Rings.jsx";
+import Controller from "../components/Controller.jsx";
 
 const Hero = () => {
     const isSmall = useMediaQuery({maxWidth: 440});
@@ -43,7 +43,10 @@ const Hero = () => {
                             <Charmander position={sizes.charmanderPosition}/>
                             <ReactLogo position={sizes.reactLogoPosition}/>
                             <Cube position={sizes.cubePosition}/>
-                            <Rings position={sizes.ringPosition}/>
+                            <Controller
+                                position={sizes.controllerPosition}
+                                scale={sizes.controllerScale}
+                            />
                         </group>
 
                         <ambientLight intensity={1}/>
