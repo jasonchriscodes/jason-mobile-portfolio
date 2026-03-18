@@ -18,7 +18,7 @@ const Charmander = (props) => {
     });
 
     return (
-        <mesh {...props} scale={0.8} ref={charmanderRef} rotation={[0, Math.PI / 5, 0]}>
+        <mesh {...props} scale={0.9} ref={charmanderRef} rotation={[0, Math.PI / 5, 0]}>
             <primitive object={scene}/>
         </mesh>
     )

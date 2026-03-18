@@ -254,7 +254,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
         reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
         controllerPosition: isSmall ? [-8, 2.5, 0] : isMobile ? [-9, 3, 0] : isTablet ? [-10.5, 3.5, 0] : [-12, 4, 0],
         controllerScale: isSmall ? 0.008 : isMobile ? 0.012 : isTablet ? 0.015 : 0.02,
-        charmanderPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
+        charmanderPosition: isSmall ? [-5, -8, -10] : isMobile ? [-9, -8, -10] : isTablet ? [-11, -5, -10] : [-13, -11, -10],
     };
 };
 
