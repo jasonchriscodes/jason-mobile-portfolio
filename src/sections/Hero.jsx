@@ -9,6 +9,7 @@ import Charmander from "../components/Charmander.jsx";
 import ReactLogo from "../components/ReactLogo.jsx";
 import Cube from "../components/Cube.jsx";
 import Controller from "../components/Controller.jsx";
+import HeroCamera from "../components/HeroCamera.jsx";
 
 const Hero = () => {
     const isSmall = useMediaQuery({maxWidth: 440});
@@ -30,14 +31,17 @@ const Hero = () => {
                 <Canvas className={"w-full h-full"}>
                     <Suspense fallback={<CanvasLoader/>}>
                         <PerspectiveCamera makeDefault position={[0, 0, 20]}/>
-                        <HackerRoom
-                            // scale={0.07}
-                            // position={[0, 0, 0]}
-                            // rotation={[0, 280, 0]}
-                            scale={sizes.deskScale}
-                            position={sizes.deskPosition}
-                            rotation={[0, -Math.PI, 0]}
-                        />
+
+                        <HeroCamera isMobile={isMobile}>
+                            <HackerRoom
+                                // scale={0.07}
+                                // position={[0, 0, 0]}
+                                // rotation={[0, 280, 0]}
+                                scale={sizes.deskScale}
+                                position={sizes.deskPosition}
+                                rotation={[0, -Math.PI, 0]}
+                            />
+                        </HeroCamera>
 
                         <group>
                             <Charmander position={sizes.charmanderPosition}/>
