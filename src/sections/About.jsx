@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Globe from 'react-globe.gl';
 import Button from '../components/Button.jsx';
+import TechStack from "./TechStack.jsx";
 
 const About = () => {
     const [hasCopied, setHasCopied] = useState(false);
@@ -28,8 +29,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">Hi, I&apos;m Jason</p>
                             <p className="grid-subtext">
-                                With 1 year of experience, I have honed my skills in frontend and backend development,
-                                with a focus on animated 3D websites.
+                                I’m a Software Engineering graduate based in Auckland, specializing in Android development and real-time systems. I have experience building mobile applications with offline support, fast recovery, and production-level reliability, and I enjoy solving practical problems while delivering clean, maintainable, and user-focused solutions.
                             </p>
                         </div>
                     </div>
@@ -37,15 +37,11 @@ const About = () => {
 
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img
-                            src="/assets/grid2.png"
-                            alt="grid-2"
-                            className="w-full sm:h-[276px] h-fit object-contain"
-                        />
+                        <TechStack />
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
                             <p className="grid-subtext">
-                                I specialize in JavaScript/TypeScript with a focus on React and Next.js ecosystems.
+                                I specialize in Kotlin and Java with a focus on Android development, real-time systems, and scalable mobile architectures, with growing experience in iOS development using Swift.
                             </p>
                         </div>
                     </div>
