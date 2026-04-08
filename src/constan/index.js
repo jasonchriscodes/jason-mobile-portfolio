@@ -102,7 +102,7 @@ export const myProjects = [
         subdesc:
             'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
         href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-        texture: '/textures/project/project2.mp4',
+        texture: '/textures/project/tablet1.mp4',
         logo: '/assets/project-logo2.png',
         logoStyle: {
             backgroundColor: '#13202F',
