@@ -5,6 +5,7 @@ import { Center, OrbitControls } from "@react-three/drei";
 import CanvasLoader from "../components/CanvasLoader.jsx";
 import DemoComputer from "../components/DemoComputer.jsx";
 import DemoTablet from "../components/DemoTablet.jsx";
+import DemoPhone from "../components/DemoPhone.jsx";
 
 const Projects = () => {
     const projectCount = myProjects.length;
@@ -76,7 +77,7 @@ const Projects = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <p>Check Site</p>
+                            <p>Check App</p>
                             <img src="/assets/arrow-up.png" className="w-3 h-3" alt="arrow" />
                         </a>
                     </div>
@@ -119,8 +120,8 @@ const Projects = () => {
                                         <DemoComputer texture={currentProject.texture} />
                                     </group>
                                 ) : (
-                                    <group scale={2} position={[0, -3, 0]} rotation={[0, -0.1, 0]}>
-                                        <DemoComputer texture={currentProject.texture} />
+                                    <group scale={2} position={[0, -3.2, 0]} rotation={[0, -1.55, 0]}>
+                                        <DemoPhone texture={currentProject.texture} />
                                     </group>
                                 )}
                             </Suspense>

@@ -58,12 +58,12 @@ export const clientReviews = [
 
 export const myProjects = [
     {
-        title: 'CarePulse - Health Management System',
-        desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+        title: 'Ticket Booking App',
+        desc: 'A mobile ticket booking app that lets users browse travel options, compare airlines, and explore booking details through a clean and user-friendly Android interface.',
         subdesc:
-            'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-        href: 'https://jason-care-pulse.vercel.app/',
-        texture: '/textures/project/project3.mp4',
+            'Built as an Android tutorial project, it highlights booking-style mobile layouts, travel-focused UI design, and organized airline data presentation for a polished user experience.',
+        href: '',
+        texture: '/textures/project/phone1.mp4',
         logo: '/assets/project-logo3.png',
         logoStyle: {
             backgroundColor: '#60f5a1',
@@ -76,33 +76,75 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Java',
+                path: '/assets/java.png',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Android',
+                path: '/assets/android.png',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'XML',
+                path: '/assets/xml.png',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Android Studio',
+                path: '/assets/android-studio.png',
+            },
+            {
+                id: 5,
+                name: 'Jetpack Compose',
+                path: '/assets/jetpack-compose.png',
             },
         ],
     },
     {
-        title: 'LiveDoc - Real-Time Google Docs Clone',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+        title: 'BusFlow',
+        desc: 'A driver-focused Android app that replaces printed duty sheets with a clear digital roster, helping bus drivers view schedules, timing points, and route information more efficiently.',
         subdesc:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+            'Built for real-time public transport operations, BusFlow features a multi-color timeline, paginated table view, live map tracking, schedule adherence indicators, offline map fallback, and device-specific configuration via MQTT, REST, and Thingsboard.',
+        href: 'https://github.com/jasonchriscodes/BusFlow',
         texture: '/textures/project/tablet1.mp4',
+        logo: '/assets/BusFlow.png',
+        logoStyle: {
+            backgroundColor: '#13202F',
+            border: '0.2px solid #17293E',
+            boxShadow: '0px 0px 60px 0px #2F6DB54D',
+        },
+        spotlight: '/assets/spotlight2.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Android',
+                path: '/assets/android.png',
+            },
+            {
+                id: 2,
+                name: 'Kotlin',
+                path: '/assets/kotlin.png',
+            },
+            {
+                id: 3,
+                name: 'Java',
+                path: '/assets/java.png',
+            },
+            {
+                id: 4,
+                name: 'Thingsboard',
+                path: '/assets/thingsboard.jpg',
+            }
+        ],
+    },
+    {
+        title: 'Personal Finance Dashboard App',
+        desc: 'A modern mobile finance app concept for tracking cards, balances, income, expenses, and category-based spending in a visually clear dashboard.',
+        subdesc:
+            'Created from an Android tutorial project, it highlights polished UI design, wallet-inspired screens, and structured financial data presentation for a smooth mobile user experience.',
+        href: '',
+        texture: '/textures/project/phone2.mp4',
         logo: '/assets/project-logo2.png',
         logoStyle: {
             backgroundColor: '#13202F',
@@ -113,33 +155,38 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Android',
+                path: '/assets/android.png',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Java',
+                path: '/assets/java.png',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'XML',
+                path: '/assets/xml.png',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Android Studio',
+                path: '/assets/android-studio.png',
+            },
+            {
+                id: 5,
+                name: 'Jetpack Compose',
+                path: '/assets/jetpack-compose.png',
             },
         ],
     },
     {
-        title: 'Podcastr - AI Podcast Platform',
-        desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+        title: 'E-Commerce Shopping App',
+        desc: 'A mobile e-commerce app designed to help users browse products, explore categories, and view shopping items through a clean and modern Android interface.',
         subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-        texture: '/textures/project/project1.mp4',
+            'Built as an Android shopping app project, it showcases product listings, category-based browsing, promotional banners, and structured store data for a smooth mobile user experience.',
+        href: '',
+        texture: '/textures/project/phone2.mp4',
         logo: '/assets/project-logo1.png',
         logoStyle: {
             backgroundColor: '#2A1816',
@@ -150,70 +197,33 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Java',
+                path: '/assets/java.png',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Kotlin',
+                path: '/assets/kotlin.png',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Android',
+                path: '/assets/android.png',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Android Studio',
+                path: '/assets/android-studio.png',
             },
         ],
     },
     {
-        title: 'Horizon - Online Banking Platform',
-        desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+        title: 'Doctor Appointment App',
+        desc: 'A mobile healthcare app designed to help users browse medical specialties, explore doctor profiles, and book appointments through a clean and modern Android interface.',
         subdesc:
-            'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-        href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-        texture: '/textures/project/project4.mp4',
-        logo: '/assets/project-logo4.png',
-        logoStyle: {
-            backgroundColor: '#0E1F38',
-            border: '0.2px solid #0E2D58',
-            boxShadow: '0px 0px 60px 0px #2F67B64D',
-        },
-        spotlight: '/assets/spotlight4.png',
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
-            },
-        ],
-    },
-    {
-        title: 'Imaginify - AI Photo Manipulation App',
-        desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-        subdesc:
-            'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-        href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-        texture: '/textures/project/project5.mp4',
+            'Built as an Android doctor appointment project inspired by a Jetpack Compose tutorial, it showcases healthcare-focused UI design, specialty-based navigation, doctor listing screens, and structured appointment-style data presentation.',
+        href: '',
+        texture: '/textures/project/phone4.mp4',
         logo: '/assets/project-logo5.png',
         logoStyle: {
             backgroundColor: '#1C1A43',
@@ -224,23 +234,28 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Android',
+                path: '/assets/android.png',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Kotlin',
+                path: '/assets/kotlin.png',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Jetpack Compose',
+                path: '/assets/jetpack-compose.png',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Android Studio',
+                path: '/assets/android-studio.png',
+            },
+            {
+                id: 3,
+                name: 'Jetpack Compose',
+                path: '/assets/jetpack-compose.png',
             },
         ],
     },
