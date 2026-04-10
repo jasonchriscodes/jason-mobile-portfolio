@@ -186,7 +186,7 @@ export const myProjects = [
         subdesc:
             'Built as an Android shopping app project, it showcases product listings, category-based browsing, promotional banners, and structured store data for a smooth mobile user experience.',
         href: '',
-        texture: '/textures/project/phone2.mp4',
+        texture: '/textures/project/phone3.mp4',
         logo: '/assets/project-logo1.png',
         logoStyle: {
             backgroundColor: '#2A1816',
